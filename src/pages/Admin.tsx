@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Briefcase, Search, Filter, User, Settings } from "lucide-react";
+import { Briefcase, Search, Filter, User, Settings, Building } from "lucide-react";
 import { jobs, Job } from "@/data/mockData";
 import { useToast } from "@/components/ui/use-toast";
 

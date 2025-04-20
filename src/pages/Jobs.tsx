@@ -87,13 +87,13 @@ const Jobs = () => {
                     />
                     <div className="flex items-center gap-1">
                       {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
-                        <Pagination.Item
+                        <Pagination.Number
                           key={page}
                           onClick={() => setCurrentPage(page)}
                           active={page === currentPage}
                         >
                           {page}
-                        </Pagination.Item>
+                        </Pagination.Number>
                       ))}
                     </div>
                     <Pagination.Next
